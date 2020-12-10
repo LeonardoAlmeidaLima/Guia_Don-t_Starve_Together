@@ -1,0 +1,54 @@
+.BORDA2 ul li {
+    display: inline-block;
+    
+}
+.BORDA2{
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vh;
+    
+    width: 100%;
+    border:  black solid;
+    
+    background-image: linear-gradient(#B2986B,#CEB17D,#B2986B);
+}
+
+.RODAPE {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 110%;
+
+    width: 100%;
+    border:  black solid;
+    
+    background-image: linear-gradient(#B2986B,#CEB17D,#B2986B);
+}
+
+.ICON4 {
+    width: 1.5%;
+    height: auto;
+    transition:1.6s;
+    
+}
+.ICON4:hover {
+transform: scale(2) rotate(-5deg);
+}
+a{
+    color:black;
+    transition:1.6s;
+
+}
+
+a :visited{
+color:black;
+}
+
+a:hover{
+    background-color: #A78C63;
+    font-size:110%;
+    
+    
+}

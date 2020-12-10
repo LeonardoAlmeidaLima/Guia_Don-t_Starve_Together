@@ -1,0 +1,101 @@
+main
+{
+background-color: #D6B391;
+text-align: justify;
+margin:15%;
+margin-top: 0%;
+margin-bottom: 0%;
+padding: 3%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 110%;
+}
+h1
+{
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.7;
+    
+}
+p{
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body
+{
+    background-color:#C29A76;
+    text-align: justify;
+    margin-bottom:0%;
+    margin-top:0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+} 
+.FOTO
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.ICON
+{
+    width: 2%;
+    height: auto;
+    transition:1.6s;
+}
+
+.ICON:hover{
+    transform: scale(1.5) rotate(-5deg);
+}
+
+.ICON2
+{
+    width:2.5%;
+    height: auto;
+    transition:1.6s;
+    
+}
+.ICON2:hover{
+    transform: scale(1.5) rotate(-5deg);
+}
+.ICON3
+{
+    width:3%;
+    height: auto;
+    transition:1.6s;
+}
+.ICON3:hover{
+    transform: scale(1.5) rotate(-5deg);
+}
+.LOGO
+{
+    width: 60%;
+    height: auto;
+}
+.ZOOM{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    transition:1.6s;
+    
+        
+}
+
+.ZOOM:hover {
+    
+    transform: scale(1.7) rotate(-5deg);
+    
+    box-shadow: 0 0 0 9999px rgba(0,0,0,0.5);
+    ;
+  }
+
+
+  .BORDA {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border:  black solid;
+    
+    background-image: linear-gradient(#C29A76,#D6B391,#C29A76);
